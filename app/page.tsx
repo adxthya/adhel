@@ -11,7 +11,7 @@ export default function Home() {
     <main className=" min-h-screen flex flex-col">
       <Navbar />
       {/* Hero Section */}
-      <section className="flex-1 flex flex-col items-center text-center px-4 mt-32">
+      <section className="flex-1 flex flex-col items-center justify-center text-center px-4 mt-20 lg:mt-32">
         {/* Profile Image */}
         <div className="mb-6 relative group">
           <Image

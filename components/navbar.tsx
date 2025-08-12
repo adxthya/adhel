@@ -9,11 +9,11 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
         <Link
           href="/"
-          className="text-xl text-indigo-600"
+          className="text-xl text-indigo-600 hidden lg:flex"
         >
           Adhel Johnson
         </Link>
-        <ul className="flex space-x-6">
+        <ul className="flex space-x-6 items-center justify-center w-screen lg:w-fit">
           <li>
             <Link
               href="/"
